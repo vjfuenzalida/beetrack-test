@@ -1,0 +1,56 @@
+@import './assets/_colors.scss';
+
+.App {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+// Text colors
+
+.text-c-gray {
+  color: $beetrack-gray;
+}
+.text-c-gray {
+  color: $beetrack-gray;
+}
+.text-c-light-gray {
+  color: $beetrack-light-gray;
+}
+.text-c-yellow {
+  color: $beetrack-yellow;
+}
+
+// Font Weights
+
+.text-w-thin {
+  font-weight: 100;
+}
+.text-w-extra-light {
+  font-weight: 200;
+}
+.text-w-light {
+  font-weight: 300;
+}
+.text-w-normal {
+  font-weight: 400;
+}
+.text-w-medium {
+  font-weight: 500;
+}
+.text-w-semi-bold {
+  font-weight: 600;
+}
+.text-w-bold {
+  font-weight: 700;
+}
+.text-w-extra-bold {
+  font-weight: 800;
+}
+.text-w-black {
+  font-weight: 900;
+}

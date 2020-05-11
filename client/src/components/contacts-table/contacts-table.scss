@@ -1,0 +1,60 @@
+@import '../../assets/_colors.scss';
+
+.table-container {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr;
+  grid-template-areas: 
+    "header"
+    "rows";
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+}
+
+.table-headers {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  div {
+    padding: 10px 25px;
+    span {
+      font-size: 16px;
+    }
+  }
+  :first-child {
+    margin-right: .25px; 
+  }
+}
+
+.table-rows {
+  grid-area: rows;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 1fr [first-col] 2fr [second-col];
+  border-top: .25px solid $beetrack-bg-gray;
+  box-sizing: border-box;
+  
+  div.row-element {
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.row-user {
+  border-right: .25px solid $beetrack-bg-gray;
+}
+
+.description-paragraph {
+  margin: 10px 0;
+}
+
+.no-registries {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}

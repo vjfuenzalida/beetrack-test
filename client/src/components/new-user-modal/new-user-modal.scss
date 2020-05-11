@@ -1,0 +1,40 @@
+@import '../../assets/_colors.scss';
+
+.modal-container {
+  .modal-dialog {
+    max-width: 600px;
+  }
+  .modal-content {
+    border-radius: 0;
+    border: none;
+  }
+  .modal-header {
+    padding: 24px 16px;
+  }
+  .modal-title {
+    font-size: 20px;
+  }
+  .modal-body {
+    background-color: $beetrack-white-gray;
+    text-align: center;
+  }
+
+  #new-user-form {
+    margin: 30px;
+    text-align: left;
+    label {
+      color: $beetrack-gray;
+      font-weight: 700;
+    }
+    input, textarea {
+      border-radius: 0;
+    }
+    textarea {
+      resize: none;
+    }
+  }
+  .modal-actions {
+    margin-bottom: 40px;
+  }
+}
+

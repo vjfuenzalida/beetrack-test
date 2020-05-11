@@ -1,0 +1,10 @@
+@import './assets/_colors.scss';
+@import '~bootstrap/scss/bootstrap.scss';
+
+body {
+  margin: 0;
+  background-color: $beetrack-bg-gray;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}

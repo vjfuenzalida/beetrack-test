@@ -1,0 +1,13 @@
+@import '../../assets/_colors.scss';
+
+.button-container {
+  min-width: 200px;
+  background-color: $beetrack-yellow !important;
+  :first-child {
+    margin-right: 0.3rem;
+  }
+}
+
+.button-icon {
+  color: white;
+}

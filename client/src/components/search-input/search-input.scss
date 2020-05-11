@@ -1,0 +1,25 @@
+.square-borders {
+  border-radius: 0;
+}
+
+.no-border-left {
+  border-left: none !important;
+}
+
+.no-border-right {
+  border-right: none !important;
+}
+
+.no-border-radius {
+  input, div > span {
+    border-radius: 0;
+  }
+}
+
+.search-input {
+  input:focus {
+    box-shadow: none;
+    border: 1px solid #ced4da;
+    outline: 0 none;    
+  }
+}

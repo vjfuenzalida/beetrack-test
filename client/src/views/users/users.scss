@@ -1,0 +1,49 @@
+.container-users {
+  margin: 2rem 0;
+}
+
+.view-title-wrapper {
+  margin-bottom: 2rem;
+  h1 {
+    font-size: 30px;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 50px auto 50px;
+  grid-template-areas:
+    "search button"
+    "table table"
+    ". pagination";
+}
+
+.search-input-wrapper {
+  grid-area: search;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;  
+}
+
+.new-user-button-wrapper {
+  grid-area: button;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.table-wrapper {
+  margin-top: 10px;
+  grid-area: table;
+}
+
+.pagination-wrapper {
+  grid-area: pagination;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;  
+}

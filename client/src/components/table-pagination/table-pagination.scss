@@ -1,0 +1,13 @@
+@import '../../assets/_colors.scss';
+
+.pagination-button:last-child {
+  margin-left: 50px;
+}
+
+.pagination-button {
+  display: inline-block;
+  cursor: pointer;
+  :first-child {
+    margin-right: 10px;
+  }
+}
