@@ -1,5 +1,8 @@
+@import '../../assets/_colors.scss';
+
 .square-borders {
   border-radius: 0;
+  border: 0;
 }
 
 .no-border-left {
@@ -8,6 +11,10 @@
 
 .no-border-right {
   border-right: none !important;
+}
+
+.no-border {
+  border: none !important;
 }
 
 .no-border-radius {
@@ -21,5 +28,9 @@
     box-shadow: none;
     border: 1px solid #ced4da;
     outline: 0 none;    
+  }
+  ::placeholder {
+    color: $beetrack-light-gray;
+    opacity: 0.6;
   }
 }

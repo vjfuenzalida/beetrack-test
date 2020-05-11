@@ -25,7 +25,7 @@ const SearchInput = (props) => {
   return (
     <div className="input-group search-input no-border-radius">
       <div className="input-group-prepend">
-        <span className="input-group-text bg-white no-border-right" id="search-input">
+        <span className="input-group-text bg-white no-border" id="search-input">
           <FontAwesomeIcon icon="search" size="lg" color="#fab43d" />
         </span>
       </div>
@@ -33,7 +33,7 @@ const SearchInput = (props) => {
         onChange={handleTextChange}
         value={search}
         type="text"
-        className="form-control no-border-left"
+        className="form-control no-border"
         placeholder={placeholder}
       />
     </div>
