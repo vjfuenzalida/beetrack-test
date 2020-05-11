@@ -32,7 +32,7 @@ Ahora, en una nueva terminal, se prepara el proyecto de Frontend en React.
 
          $ npm install
 
-5. Iniciar servidor webpack (PORT    3001):
+5. Iniciar servidor webpack (PORT 3001):
 
          $ npm start
 
